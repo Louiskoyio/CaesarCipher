@@ -13,6 +13,9 @@ public class App {
         Decipher decipherText = new Decipher();
         String decodedText = decipherText.runDecipher(encodedText,key);
 
+
+        
+
         System.out.println("INPUT: " + userInput );
         System.out.println("ENCODED: " + encodedText );
         System.out.println("DECODED: " + decodedText );
