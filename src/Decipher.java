@@ -6,7 +6,7 @@ public class Decipher {
         String decipheredText="";
 
 
-        
+
 
         for(int i=0; i<encryptedText.length();i++) {
             char letter = encryptedText.charAt(i);

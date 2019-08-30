@@ -62,7 +62,7 @@ public class Cipher {
     public String runCipher(String userInput, int key) {
         String result="";
         if(validateInput(userInput)==false){
-          //  result = "ONLY ENTER LETTERS OF THE ALPHABET!";
+          result = "ONLY ENTER LETTERS OF THE ALPHABET!";
         }else {
             result = cipher(userInput,key);
 
