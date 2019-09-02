@@ -1,3 +1,5 @@
+import java.security.Key;
+
 public class Cipher {
     char [] capitalLetters = {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
     char [] smallLetters = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
@@ -40,11 +42,19 @@ public class Cipher {
                     if(Character.isUpperCase(letter)) {
                         letterIndex = new String(capitalLetters).indexOf(letter);
                         int newIndex = letterIndex + key;
+                        if(newIndex>25){
+                            newIndex = newIndex - 25;
+
+                        }
                         char encodedLetter = capitalLetters[newIndex];
                         encodedText += encodedLetter;
                     }else {
                         letterIndex = new String(smallLetters).indexOf(letter);
                         int newIndex = letterIndex + key;
+                        if(newIndex>25){
+                            newIndex = newIndex - 25;
+
+                        }
                         char encodedLetter = smallLetters[newIndex];
                         encodedText += encodedLetter;
                     }
@@ -60,7 +70,7 @@ public class Cipher {
 }
 
     public String runCipher(String userInput, int key) {
-        String result="";
+        String result = cipher(userInput,key);
 
         return result;
     }

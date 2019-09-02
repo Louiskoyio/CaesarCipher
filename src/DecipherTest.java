@@ -15,7 +15,7 @@ class DecipherTest {
     public void runDecipher_DecryptOneWord_String() {
         Decipher testDecipher = new Decipher();
         String expected = "Boy";
-        assertEquals(expected, testDecipher.runDecipher("Cpz", 1));
+        assertEquals(expected, testDecipher.runDecipher("", 1));
 
 
     }

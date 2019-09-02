@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acd103ce-4f38-46ef-b378-cc2ab9ba9e1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ceasar/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ceasar/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ceasar/Cipher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ceasar/Cipher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ceasar/CipherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ceasar/CipherTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ceasar/Decipher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ceasar/Decipher.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cipher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CipherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CipherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decipher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DecipherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecipherTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,10 +63,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.DecipherTest.runDecipher_DecryptOneWord_String">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="Ceasar" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CipherTest.runCipher_EncryptOneLetter_String" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ceasar" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CipherTest" />
+      <option name="METHOD_NAME" value="runCipher_EncryptOneLetter_String" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -72,21 +91,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CipherTest.runCipher_EncryptTwoWords_String" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CipherTest.words_SplitTwoWords_StringArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ceasar" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CipherTest" />
-      <option name="METHOD_NAME" value="runCipher_EncryptTwoWords_String" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DecipherTest.runDecipher_DecryptOneLetter_String" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Ceasar" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DecipherTest" />
-      <option name="METHOD_NAME" value="runDecipher_DecryptOneLetter_String" />
+      <option name="METHOD_NAME" value="words_SplitTwoWords_StringArray" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.DecipherTest.runDecipher_DecryptOneWord_String" />
-        <item itemvalue="JUnit.DecipherTest.runDecipher_DecryptOneLetter_String" />
-        <item itemvalue="JUnit.CipherTest.runCipher_EncryptTwoWords_String" />
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.CipherTest.runCipher_EncryptOneWord_String" />
+        <item itemvalue="JUnit.CipherTest.words_SplitTwoWords_StringArray" />
+        <item itemvalue="JUnit.CipherTest.runCipher_EncryptOneLetter_String" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +139,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

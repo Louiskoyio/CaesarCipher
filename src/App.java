@@ -1,15 +1,23 @@
 import java.util.Scanner;
 
+
 public class App {
+
+    public static final char [] capitalLetters = {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
     public static void main(String[] args) {
+
         Cipher cipherText = new Cipher();
-        System.out.println("Enter a message:\n(INPUT MUST ONLY BE LETTERS)");
+        System.out.println("ENTER A MESSAGE: ");
         Scanner scanner = new Scanner(System.in);
-        String userInput = scanner.nextLine();
-        if(cipherText.validateInput(userInput)==false){
-            String error = "ONLY ENTER LETTERS OF THE ALPHABET!";
-            System.out.println(error);
-        }else {
+        boolean inputOK = false;
+        String userInput = "";
+        while (inputOK==false){
+            String warning = "(INPUT MUST ONLY BE LETTERS. NO SPACES, SYMBOLS OR NUMBERS)";
+            System.out.println(warning);
+            userInput = scanner.nextLine();
+            inputOK = cipherText.validateInput(userInput);
+
+        }
 
             System.out.println("Enter decryption key:\n(MUST BE BETWEEN 1-26)");
             int key = scanner.nextInt();
@@ -22,7 +30,7 @@ public class App {
             System.out.println("INPUT: " + userInput );
             System.out.println("ENCODED: " + encodedText );
             System.out.println("DECODED: " + decodedText );
-        }
+
 
 
 

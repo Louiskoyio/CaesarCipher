@@ -20,8 +20,8 @@ class CipherTest {
     @Test
     public void runCipher_EncryptOneWord_String() {
         Cipher testCipher = new Cipher();
-        String expected = "Cpz";
-        assertEquals(expected, testCipher.runCipher("Boy",1));
+        String expected = "CpzA";
+        assertEquals(expected, testCipher.runCipher("BoyZ",1));
 
     }
 
