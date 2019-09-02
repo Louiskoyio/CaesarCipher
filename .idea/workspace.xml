@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acd103ce-4f38-46ef-b378-cc2ab9ba9e1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Ceasar/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ceasar/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ceasar/Cipher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ceasar/Cipher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ceasar/CipherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ceasar/CipherTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Ceasar/Decipher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ceasar/Decipher.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cipher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CipherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CipherTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Decipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decipher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DecipherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecipherTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DecipherTest.runDecipher_DecryptOneWord_String">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="Ceasar" />
@@ -113,8 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DecipherTest.runDecipher_DecryptOneWord_String" />
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.DecipherTest.runDecipher_DecryptOneWord_String" />
         <item itemvalue="JUnit.CipherTest.runCipher_EncryptOneWord_String" />
         <item itemvalue="JUnit.CipherTest.words_SplitTwoWords_StringArray" />
         <item itemvalue="JUnit.CipherTest.runCipher_EncryptOneLetter_String" />
