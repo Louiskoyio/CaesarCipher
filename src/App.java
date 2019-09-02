@@ -14,7 +14,7 @@ public class App {
         String userInput = "";
         int i = 0;
         ArrayList <String> userInputs = new ArrayList<String>();
-        while (!inputOK || "X".equals(userInput) == true ){
+        while (!inputOK || i<4 ){
             String warning = "(BAD INPUT!!\nINPUT MUST ONLY BE LETTERS. NO SPACES, SYMBOLS OR NUMBERS)";
             System.out.println(warning);
             userInput = scanner.nextLine();
@@ -25,7 +25,7 @@ public class App {
 
         System.out.println("Enter decryption key:\n(MUST BE BETWEEN 1-26)");
         int key = scanner.nextInt();
-        System.out.print("Input:  " );
+        System.out.print("Input: " );
         for(String word : userInputs){
 
             System.out.print(word + " " );
@@ -43,12 +43,12 @@ public class App {
 
             }
 
-        System.out.print("\nEncoded String:  " );
+        System.out.print("\nEncoded String: " );
         for(String word : encodedWords){
 
             System.out.print(word + " " );
         }
-        System.out.print("\nDecoded String:  " );
+        System.out.print("\nDecoded String: " );
         for(String word : decodedWords){
 
             System.out.print(word + " " );
